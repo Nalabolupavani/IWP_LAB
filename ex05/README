@@ -1,11 +1,9 @@
-# Experiment 5 — Servlet-Based Login System with User Authentication (GET & POST)
+Experiment 5 — Servlet-Based Login System with User Authentication (GET & POST)
 
-## Aim
+Aim
 To develop a Java Servlet-based login system that performs user authentication using both `doGet()` and `doPost()` methods, configured using a web deployment descriptor (`web.xml`), and deployed on Apache Tomcat.
 
----
-
-## 1. Project Directory Structure
+ 1. Project Directory Structure
 
 ```text
 ex05/
@@ -21,20 +19,15 @@ ex05/
     │   └── jakarta.servlet.jsp.jstl-api-3.0.0.jar
     └── classes/
         └── LoginServlet.class     # Compiled servlet bytecode
-```
 
----
-
-## 2. Server Requirement
+ 2. Server Requirement
 
 > [!IMPORTANT]
 > **Apache Tomcat 10.x or 11.x is REQUIRED for this experiment.**  
 > Servlets cannot run on VS Code Live Server or standalone Java because they need a Servlet Container.  
 > Note: Must be **Tomcat 10.x or 11.x** (not Tomcat 9) because the code uses modern **Jakarta EE** (`jakarta.servlet.*`).
 
----
-
-## 3. How to Run in VS Code (Using Community Server Connectors)
+3. How to Run in VS Code (Using Community Server Connectors)
 
 If your lab uses VS Code with the **Community Server Connectors** extension:
 
